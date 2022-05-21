@@ -1,26 +1,24 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <section style="height: 100vh">
+    <!-- NavBar -->
+    <NavBar class="z-10" />
+    <!-- HeaderBar -->
+    <HeaderBar class="z-20" />
+    <main class="h-full z-0 sm:pt-16 sm:pl-16">
+      <!-- ContentCep -->
+      <ContentCep />
+    </main>
+  </section>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import HeaderBar from "@/components/HeaderBar.vue";
+import NavBar from "@/components/NavBar.vue";
+import ContentCep from "@/components/ContentCep.vue";
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  components: { HeaderBar, NavBar, ContentCep },
+  name: "App",
+};
 </script>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style lang="scss"></style>
