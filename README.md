@@ -1,24 +1,13 @@
-# increazy
+![ViaCep](https://i.ibb.co/tMK8wmQ/viacep.png)
 
-## Project setup
-```
-npm install
-```
+# ViaCep
+Aplicação de consulta de CEP's em Vue 3 + Tailwindcss.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Clonar Repositório
+Inicialmente é necessário clonar o repositório principal do projeto com
+`git@github.com:chrissgon/viaCep.git`.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Execução dos Ambientes
+Para executar a aplicação use o comando `npm run serve`.
+<br>
+Em seguida acesse <a target="_blank" href="http://localhost:8080/">http://localhost:8080/</a>.
