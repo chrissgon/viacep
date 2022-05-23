@@ -1,8 +1,7 @@
 ![ViaCep](https://i.ibb.co/tMK8wmQ/viacep.png)
 
-# ViaCep
+# Via Cep
 Aplicação de consulta de CEP's em Vue 3 + Tailwindcss.
-
 
 ## Comandos
 
