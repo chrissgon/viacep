@@ -4,7 +4,7 @@
   >
     <!-- title -->
     <article class="title w-full max-w-sm flex py-2 sm:py-0 mt-3 sm:mt-0">
-      <img class="px-2" src="@/assets/img/logo.svg" alt="Logo ViaCep" />
+      <img class="px-2" src="@/assets/logo.svg" alt="Logo ViaCep" />
 
       <div
         class="w-full flex flex-col justify-center px-3 py-1 ml-3 border-2 leading-none rounded-md"
