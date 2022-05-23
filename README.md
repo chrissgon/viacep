@@ -4,7 +4,6 @@
 Aplicação de consulta de CEP's em Vue 3 + Tailwindcss.
 
 ## Comandos
-
 - Clona o repositório.
 ``` bash
 git clone git@github.com:chrissgon/viaCep.git
@@ -22,7 +21,6 @@ npm run serve
 Aplicação hospedada em <a href="http://localhost:8080/">http://localhost:8080/</a>.
 
 ## Referências
-
 - [Via Cep](https://viacep.com.br/)
 
 ---
