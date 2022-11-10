@@ -6,7 +6,7 @@ Aplicação de consulta de CEP's em Vue 3 + Tailwindcss.
 ## Comandos
 - Clona o repositório.
 ``` bash
-git clone git@github.com:chrissgon/viaCep.git
+git clone git@github.com:chrissgon/viacep.git
 ```
 - Instala dependências.
 ``` bash
