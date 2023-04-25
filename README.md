@@ -1,27 +1,35 @@
 ![ViaCep](https://i.ibb.co/tMK8wmQ/viacep.png)
 
 # Via Cep
-Aplicação de consulta de CEP's em Vue 3 + Tailwindcss.
+ZIP Code lookup application in Vue 3 + Tailwindcss.
 
-## Comandos
-- Clona o repositório.
+## Commands
+- Clone the repository
 ``` bash
 git clone git@github.com:chrissgon/viacep.git
 ```
-- Instala dependências.
+- Install packages.
 ``` bash
-npm i
+pnpm i
 ```
-- Executa aplicação.
+- Run application.
 ``` bash
-npm run serve
+pnpm dev
+```
+- Run tests.
+``` bash
+pnpm test
+```
+- Run tests with coverage.
+``` bash
+pnpm test:cov
 ```
 
-## Anotações
-Aplicação hospedada em <a href="http://localhost:8080/">http://localhost:8080/</a>.
+## Anotations
+Application hosted in <a href="http://localhost:8080/">http://localhost:8080/</a>.
 
-## Referências
+## References
 - [Via Cep](https://viacep.com.br/)
 
 ---
-Desenvolvido por [Christopher Gonçalves](https://github.com/chrissgon)
+Developed by [Christopher Gonçalves](https://github.com/chrissgon)
