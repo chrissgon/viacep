@@ -26,7 +26,7 @@ export class ZipcodeService {
   remove(zipcode) {
     delete this.list[zipcode];
   }
-  
+
   get() {
     return this.list;
   }

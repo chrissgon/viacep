@@ -30,7 +30,7 @@
       </header>
       <!-- list -->
       <article class="mt-8">
-        <div v-for="info in list">
+        <div v-for="info in getList">
           <ItemCep :info="info" />
         </div>
       </article>
@@ -61,7 +61,7 @@ import Button from "./Button.vue";
 import ItemCep from "./ItemCep.vue";
 
 // computed
-const list = computed(() => service.list);
+const getList = computed(() => service.list);
 
 // data
 const LABEL_STORAGE = "viacep";
